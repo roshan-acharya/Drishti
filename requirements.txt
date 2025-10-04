@@ -1,4 +1,6 @@
-pytorch
+torch
 torchvision
 numpy
 pandas
+matplotlib
+streamlit
