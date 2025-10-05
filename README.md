@@ -1,8 +1,5 @@
 #  🚀  Drishti - A Pix2Pix GAN Model 
 
-Drishti is a deep learning-based AI tool that transforms SAR (Synthetic Aperture Radar) images into optical-like images, making complex radar data human-readable.
-
----
 
 ## 📝 Introduction
 
@@ -56,7 +53,7 @@ This project aims to develop an advanced system that uses pix2pix **GAN (Generat
 | Discriminator (D) | `Binary Cross-Entropy (BCE) Loss`       | Helps discriminator distinguish real vs fake images.                    |
 
 
-
+Model Link : https://huggingface.co/roshan-acharya/dristhi-generator
 ---
 ## **📂 Experiment Details**
 
