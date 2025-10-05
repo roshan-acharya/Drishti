@@ -2,4 +2,5 @@
 /venv
 /models
 /neuralnets
+/neuralnets/__pycache__
 
