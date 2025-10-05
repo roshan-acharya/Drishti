@@ -43,6 +43,6 @@ if uploaded_file is not None:
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image(image, caption='Uploaded SAR Image', use_column_width=True)
+        st.image(image, caption='Uploaded SAR Image', width='stretch')
     with col2:
-        st.image(output_image, caption='Generated Optical Image', use_column_width=True)
+        st.image(output_image, caption='Generated Optical Image', width='stretch')
