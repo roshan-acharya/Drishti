@@ -1,16 +1,16 @@
-# Drishti - A Pix2Pix GAN Model 
+#  🚀  Drishti - A Pix2Pix GAN Model 
 
 Drishti is a deep learning-based AI tool that transforms SAR (Synthetic Aperture Radar) images into optical-like images, making complex radar data human-readable.
 
 ---
 
-## Introduction
+## 📝 Introduction
 
 This project aims to develop an advanced system that uses pix2pix **GAN (Generative Adversarial Network)**. This model will address challenges in understanding **SAR (Synthetic Aperture RADAR)**. It converts SAR images captured by satellite to optical images, making it easier for non-experts to interpret and analyze satellite data. This approach can be valuable for applications in remote sensing, disaster monitoring, and environmental analysis.
 
 ---
 
-## Goals
+## 🎯 Goals
 
 -  **SAR-to-Optical Translation** – Convert SAR images into optical images.
 
@@ -20,7 +20,7 @@ This project aims to develop an advanced system that uses pix2pix **GAN (Generat
 
 ---
 
-## Features
+## ✨ Features
 
 - Upload SAR images and generate optical images instantly.  
 - High-quality image translation with Pix2Pix GAN.  
@@ -29,19 +29,26 @@ This project aims to develop an advanced system that uses pix2pix **GAN (Generat
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ### 1. Generator
-![Pix2Pix GAN Generator Architecture](assets/generator.png)
+<div align="center">
+  <img src="assets/generator.png" alt="Pix2Pix GAN Generator Architecture" width="400"/>
+</div>
 
 ### 2. Discriminator
-![Pix2Pix GAN Discriminator Architecture](assets/discriminator.png)
+<div align="center">
+  <img src="assets/discriminator.png" alt="Pix2Pix GAN Discriminator Architecture" width="400"/>
+</div>
 
 ### 3. Generative Adversarial Network
-![GAN Architecture](assets/GAN.png)
+<div align="center">
+  <img src="assets/GAN.png" alt="GAN Architecture" width="400"/>
+</div>
+
 
 ---
-## Loss Functions Used
+## ⚡Loss Functions Used
 
 | Component      | Loss Function Used                        | Purpose                                                                 |
 |----------------|------------------------------------------|-------------------------------------------------------------------------|
@@ -51,8 +58,28 @@ This project aims to develop an advanced system that uses pix2pix **GAN (Generat
 
 
 ---
+## **📂 Experiment Details**
 
-## Installation
+### **📂Datasets**
+
+| Dataset                         | Use        | Samples    |
+|---------------------------------|------------|------------|
+| SAR-Optical Pairs (Custom)      | Training   | 15,000+    |
+| SAR-Optical Pairs (Validation)  | Validation | 2,500+     |
+
+### **🛠️ Training Configuration**
+
+| Parameter               | Value                       |
+|-------------------------|-----------------------------|
+| batch_size              | 16                          |
+| grad_clip               | 0.5                         |
+| learning_rate (Adam)    | 2e-4                        |
+| scheduler               | StepLR                      |
+| epochs                  | 100                          |
+| image_size              | 256×256                     |
+
+
+##  💻 Installation
 
 1. Clone the repository:
 
@@ -72,12 +99,12 @@ This project aims to develop an advanced system that uses pix2pix **GAN (Generat
     streamlit run app.py
     ```
 ---
-## Collaborators
+##  👥 Collaborators
 <table> <tr> <td align="center"> <a href="https://github.com/roshan-acharya"> <img src="https://avatars.githubusercontent.com/u/85246971?v=4" width="100px;" alt="Roshan Acharya"/> <br /> <sub><b>Roshan Acharya</b></sub> </a> </td> <td align="center"> <a href="https://github.com/lovelessbhartal12"> <img src="https://avatars.githubusercontent.com/u/103515260?v=4" width="100px;" alt="Contributor 2"/> <br /> <sub><b>Loblesh Bhartal</b></sub> </a> </td>  </table>
 
 ---
 
-## References / Citations
+##  📚 References / Citations
 
 For further reference and proper attribution, please cite:
 
